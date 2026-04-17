@@ -4,7 +4,7 @@ Variables derivables del Random Forest.
 
 ## Nuevo módulo: agente de estudio para maestría en ciencia de datos
 
-Se agregó una base inicial en `/home/runner/work/Experimento-Lab-I-2025/Experimento-Lab-I-2025/study_agent` para diseñar un agente que ayude a estudiar temas de una maestría en ciencia de datos.
+Se agregó una base inicial en `study_agent/` para diseñar un agente que ayude a estudiar temas de una maestría en ciencia de datos.
 
 Este módulo incluye:
 
