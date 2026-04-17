@@ -1,0 +1,231 @@
+{
+  "program_name": "Maestría en Ciencia de Datos",
+  "status": "template_inicial",
+  "subjects": [
+    {
+      "name": "Estadística e inferencia",
+      "units": [
+        {
+          "name": "Probabilidad y distribuciones",
+          "key_concepts": [
+            "variables aleatorias",
+            "esperanza y varianza",
+            "distribuciones comunes",
+            "teorema central del límite"
+          ],
+          "readings": [],
+          "exercises": [
+            "cálculo de probabilidades",
+            "interpretación de distribuciones",
+            "simulación básica"
+          ],
+          "exam_topics": [
+            "identificación de distribuciones",
+            "interpretación de momentos",
+            "aplicación del TCL"
+          ],
+          "project_ideas": [
+            "análisis exploratorio probabilístico de un dataset"
+          ]
+        },
+        {
+          "name": "Estimación y pruebas de hipótesis",
+          "key_concepts": [
+            "estimadores",
+            "intervalos de confianza",
+            "p-valores",
+            "errores tipo I y II"
+          ],
+          "readings": [],
+          "exercises": [
+            "construcción de intervalos",
+            "selección de pruebas",
+            "interpretación de resultados"
+          ],
+          "exam_topics": [
+            "pruebas paramétricas",
+            "tamaño de efecto",
+            "validez de conclusiones"
+          ],
+          "project_ideas": [
+            "evaluación de cambios antes y después de una intervención"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Programación para ciencia de datos",
+      "units": [
+        {
+          "name": "Manipulación de datos",
+          "key_concepts": [
+            "dataframes",
+            "limpieza de datos",
+            "transformaciones",
+            "joins y agregaciones"
+          ],
+          "readings": [],
+          "exercises": [
+            "preprocesamiento reproducible",
+            "detección de datos faltantes",
+            "pipeline básico"
+          ],
+          "exam_topics": [
+            "calidad de datos",
+            "eficiencia de transformaciones"
+          ],
+          "project_ideas": [
+            "construcción de un dataset analítico limpio"
+          ]
+        },
+        {
+          "name": "Buenas prácticas y reproducibilidad",
+          "key_concepts": [
+            "entornos",
+            "versionado",
+            "documentación",
+            "validación de resultados"
+          ],
+          "readings": [],
+          "exercises": [
+            "estructurar un notebook",
+            "documentar supuestos",
+            "replicar un análisis"
+          ],
+          "exam_topics": [
+            "criterios de reproducibilidad",
+            "errores comunes en notebooks"
+          ],
+          "project_ideas": [
+            "migrar un análisis exploratorio a flujo reproducible"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aprendizaje automático",
+      "units": [
+        {
+          "name": "Modelos supervisados",
+          "key_concepts": [
+            "regresión",
+            "clasificación",
+            "sesgo-varianza",
+            "validación cruzada"
+          ],
+          "readings": [],
+          "exercises": [
+            "comparación de modelos",
+            "ajuste de hiperparámetros",
+            "evaluación con métricas"
+          ],
+          "exam_topics": [
+            "selección de métricas",
+            "sobreajuste",
+            "interpretación de desempeño"
+          ],
+          "project_ideas": [
+            "predicción supervisada con justificación de métrica"
+          ]
+        },
+        {
+          "name": "Interpretabilidad y evaluación",
+          "key_concepts": [
+            "importancia de variables",
+            "matriz de confusión",
+            "ROC-AUC",
+            "explicabilidad"
+          ],
+          "readings": [],
+          "exercises": [
+            "lectura de salidas de modelo",
+            "análisis de errores",
+            "comparación de interpretabilidad"
+          ],
+          "exam_topics": [
+            "trade-offs entre desempeño e interpretabilidad"
+          ],
+          "project_ideas": [
+            "auditoría de un modelo de clasificación"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Visualización y comunicación",
+      "units": [
+        {
+          "name": "Principios de visualización",
+          "key_concepts": [
+            "elección de gráficos",
+            "percepción",
+            "narrativa visual",
+            "errores de interpretación"
+          ],
+          "readings": [],
+          "exercises": [
+            "rediseño de visualizaciones",
+            "storytelling con datos"
+          ],
+          "exam_topics": [
+            "selección del gráfico adecuado"
+          ],
+          "project_ideas": [
+            "tablero o informe ejecutivo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Optimización y experimentación",
+      "units": [
+        {
+          "name": "Diseño experimental",
+          "key_concepts": [
+            "variables de control",
+            "aleatorización",
+            "A/B testing",
+            "validez interna"
+          ],
+          "readings": [],
+          "exercises": [
+            "plantear hipótesis experimentales",
+            "definir métricas primarias"
+          ],
+          "exam_topics": [
+            "sesgos experimentales",
+            "análisis de resultados"
+          ],
+          "project_ideas": [
+            "diseño de un experimento de producto o proceso"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Proyecto aplicado o tesis",
+      "units": [
+        {
+          "name": "Planteamiento del problema",
+          "key_concepts": [
+            "pregunta de investigación",
+            "objetivos",
+            "hipótesis",
+            "criterios de éxito"
+          ],
+          "readings": [],
+          "exercises": [
+            "formular objetivos medibles",
+            "evaluar viabilidad"
+          ],
+          "exam_topics": [
+            "alineación entre problema, datos y método"
+          ],
+          "project_ideas": [
+            "propuesta de proyecto de tesis aplicada"
+          ]
+        }
+      ]
+    }
+  ]
+}

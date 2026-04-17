@@ -1,0 +1,52 @@
+{
+  "question_bank": [
+    {
+      "subject": "Estadística e inferencia",
+      "difficulty": "inicial",
+      "type": "conceptual",
+      "prompt": "Explica con tus palabras la diferencia entre parámetro, estadístico y estimador."
+    },
+    {
+      "subject": "Estadística e inferencia",
+      "difficulty": "intermedio",
+      "type": "aplicado",
+      "prompt": "¿Cuándo usarías una prueba t y cuándo una prueba no paramétrica? Justifica tus supuestos."
+    },
+    {
+      "subject": "Programación para ciencia de datos",
+      "difficulty": "inicial",
+      "type": "práctico",
+      "prompt": "Diseña una secuencia de limpieza para un dataset con faltantes, duplicados y columnas inconsistentes."
+    },
+    {
+      "subject": "Aprendizaje automático",
+      "difficulty": "intermedio",
+      "type": "comparación",
+      "prompt": "Compara random forest y regresión logística para un problema de clasificación tabular."
+    },
+    {
+      "subject": "Aprendizaje automático",
+      "difficulty": "avanzado",
+      "type": "diagnóstico",
+      "prompt": "Tu modelo tiene alto score en entrenamiento y bajo desempeño en validación. Explica posibles causas y acciones correctivas."
+    },
+    {
+      "subject": "Visualización y comunicación",
+      "difficulty": "intermedio",
+      "type": "evaluación",
+      "prompt": "Revisa una visualización saturada de colores y elementos y propone mejoras justificadas."
+    },
+    {
+      "subject": "Optimización y experimentación",
+      "difficulty": "intermedio",
+      "type": "diseño",
+      "prompt": "Plantea un experimento A/B con hipótesis, métrica principal y riesgos de sesgo."
+    },
+    {
+      "subject": "Proyecto aplicado o tesis",
+      "difficulty": "avanzado",
+      "type": "planificación",
+      "prompt": "Convierte una idea general de tesis en una pregunta de investigación viable con datos y criterio de éxito."
+    }
+  ]
+}

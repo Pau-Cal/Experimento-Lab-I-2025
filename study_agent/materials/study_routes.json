@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "name": "Fundamentos antes del examen",
+      "target_profile": "estudiante con poco tiempo y dominio parcial",
+      "steps": [
+        "Identificar unidades evaluadas y priorizar conceptos nucleares.",
+        "Repasar definiciones, fórmulas y supuestos clave.",
+        "Resolver dos ejercicios cortos por unidad.",
+        "Registrar errores frecuentes para refuerzo final."
+      ]
+    },
+    {
+      "name": "Comprensión profunda por materia",
+      "target_profile": "estudiante que busca dominar teoría y aplicación",
+      "steps": [
+        "Estudiar intuición del tema.",
+        "Formalizar conceptos y fórmulas.",
+        "Resolver ejercicios guiados.",
+        "Explicar el tema con palabras propias.",
+        "Aplicarlo a un caso real o dataset."
+      ]
+    },
+    {
+      "name": "Recuperación de atrasos",
+      "target_profile": "estudiante con varias unidades pendientes",
+      "steps": [
+        "Diagnosticar qué temas no domina.",
+        "Ordenar temas por dependencia conceptual.",
+        "Hacer sesiones cortas con un objetivo puntual.",
+        "Verificar comprensión al final de cada sesión.",
+        "Actualizar la memoria del progreso."
+      ]
+    }
+  ]
+}

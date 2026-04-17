@@ -1,0 +1,89 @@
+{
+  "knowledge_layers": [
+    {
+      "name": "contenido_fijo_programa",
+      "description": "Estructura oficial de materias, unidades, conceptos y criterios de evaluación.",
+      "priority": 1,
+      "source_examples": [
+        "programa académico",
+        "sílabos",
+        "guías de cátedra"
+      ]
+    },
+    {
+      "name": "materiales_propios_estudiante",
+      "description": "Apuntes, lecturas, resúmenes, slides y ejercicios resueltos del estudiante.",
+      "priority": 2,
+      "source_examples": [
+        "PDFs de clase",
+        "resúmenes personales",
+        "enlaces de bibliografía"
+      ]
+    },
+    {
+      "name": "contexto_del_curso",
+      "description": "Profesor, calendario, evaluaciones, formato de examen y énfasis temáticos actuales.",
+      "priority": 3,
+      "source_examples": [
+        "cronograma",
+        "rúbricas",
+        "avisos del curso"
+      ]
+    },
+    {
+      "name": "memoria_del_estudiante",
+      "description": "Historial de temas vistos, errores frecuentes, nivel de dominio y objetivos pendientes.",
+      "priority": 4,
+      "source_examples": [
+        "registro de sesiones",
+        "resultados de prácticas",
+        "metas semanales"
+      ]
+    }
+  ],
+  "interaction_logic": {
+    "detect_subject_from": [
+      "palabras clave del mensaje",
+      "material citado por el estudiante",
+      "tema previo de la conversación",
+      "metadatos de la sesión"
+    ],
+    "detect_intent_from": [
+      "explicar",
+      "comparar",
+      "resumir",
+      "evaluar",
+      "generar ejercicios",
+      "planificar estudio",
+      "preparar examen"
+    ],
+    "difficulty_adaptation": {
+      "if_mastery_is_low": [
+        "usar definiciones simples",
+        "dar ejemplos guiados",
+        "hacer una verificación corta"
+      ],
+      "if_mastery_is_medium": [
+        "combinar intuición y formalismo",
+        "plantear un ejercicio corto"
+      ],
+      "if_mastery_is_high": [
+        "resaltar trade-offs",
+        "comparar métodos",
+        "proponer variantes y casos borde"
+      ]
+    },
+    "decision_policy": {
+      "if_user_shows_confusion": "explicar + preguntar",
+      "if_user_requests_practice": "proponer ejercicios + pistas",
+      "if_user_requests_feedback": "evaluar contra criterios + corregir",
+      "if_user_requests_exam_help": "resumir + priorizar temas + simular preguntas",
+      "if_no_clear_next_step": "recomendar el mejor siguiente tema según memoria y currículo"
+    }
+  },
+  "answer_consistency_rules": [
+    "No mezclar supuestos de materias distintas sin advertirlo.",
+    "Diferenciar hechos del programa, inferencias del agente y sugerencias de estudio.",
+    "Priorizar el contenido oficial del curso sobre fuentes secundarias."
+  ]
+}

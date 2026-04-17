@@ -1,0 +1,41 @@
+{
+  "student_id": "template",
+  "last_updated": "",
+  "current_goals": [],
+  "subjects": [
+    {
+      "name": "Estadística e inferencia",
+      "mastery_level": "inicial",
+      "topics_seen": [],
+      "frequent_errors": [],
+      "pending_topics": [],
+      "next_recommended_action": ""
+    },
+    {
+      "name": "Programación para ciencia de datos",
+      "mastery_level": "inicial",
+      "topics_seen": [],
+      "frequent_errors": [],
+      "pending_topics": [],
+      "next_recommended_action": ""
+    },
+    {
+      "name": "Aprendizaje automático",
+      "mastery_level": "inicial",
+      "topics_seen": [],
+      "frequent_errors": [],
+      "pending_topics": [],
+      "next_recommended_action": ""
+    }
+  ],
+  "session_history": [
+    {
+      "date": "",
+      "topic": "",
+      "intent": "",
+      "summary": "",
+      "observed_difficulties": [],
+      "recommended_follow_up": ""
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "scenarios": [
+    {
+      "id": "stats-concept-01",
+      "category": "duda conceptual",
+      "student_prompt": "No entiendo cuándo usar intervalo de confianza y cuándo prueba de hipótesis.",
+      "expected_behavior": [
+        "detectar materia de estadística e inferencia",
+        "explicar diferencia de propósito",
+        "dar un ejemplo simple",
+        "cerrar con pregunta de verificación"
+      ]
+    },
+    {
+      "id": "ml-compare-01",
+      "category": "comparación de métodos",
+      "student_prompt": "¿Qué conviene usar para clasificación tabular, random forest o XGBoost?",
+      "expected_behavior": [
+        "comparar fortalezas y debilidades",
+        "mencionar datos, interpretabilidad y tuning",
+        "pedir contexto si faltan restricciones"
+      ]
+    },
+    {
+      "id": "programming-feedback-01",
+      "category": "corrección de respuesta",
+      "student_prompt": "Te muestro mi propuesta para limpiar un dataset. Corrígeme.",
+      "expected_behavior": [
+        "evaluar con criterios explícitos",
+        "señalar aciertos y omisiones",
+        "proponer mejora concreta"
+      ]
+    },
+    {
+      "id": "exam-prep-01",
+      "category": "preparación para examen",
+      "student_prompt": "Tengo examen mañana de pruebas de hipótesis. Hazme un repaso rápido.",
+      "expected_behavior": [
+        "priorizar síntesis",
+        "destacar conceptos trampa",
+        "cerrar con mini práctica"
+      ]
+    },
+    {
+      "id": "study-plan-01",
+      "category": "plan de estudio",
+      "student_prompt": "Me atrasé dos semanas en machine learning. Ayúdame a reorganizarme.",
+      "expected_behavior": [
+        "detectar brecha",
+        "proponer ruta de recuperación",
+        "dividir por sesiones",
+        "usar memoria del estudiante si existe"
+      ]
+    }
+  ],
+  "iteration_rules": [
+    "Registrar respuestas confusas o demasiado largas.",
+    "Ajustar prompt y materiales si el agente mezcla materias.",
+    "Agregar nuevas preguntas al banco cuando aparezcan vacíos frecuentes.",
+    "Actualizar rutas de estudio según errores repetidos."
+  ]
+}
